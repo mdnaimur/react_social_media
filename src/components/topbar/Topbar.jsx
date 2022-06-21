@@ -1,5 +1,5 @@
 import React from 'react'
-import {Search,Person,Chat,Notifications} from "@mui/icons-material"
+import { Search, Person, Chat, Notifications } from "@mui/icons-material"
 import './topbar.css'
 
 export default function Topbar() {
@@ -22,6 +22,7 @@ export default function Topbar() {
           <span className="topbarLink">Homepage</span>
           <span className="topbarLink">Timeline</span>
         </div>
+
         <div className="topbarIcons">
           <div className="topbarIconItem">
             <Person />
